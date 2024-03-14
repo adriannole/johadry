@@ -812,7 +812,7 @@ h1 {
   font-size: 24px;
   display: block;
   text-align: center;
-  color: #6a11cb;
+  color: #6b1f23;
   font-weight: 500;
 }
 
@@ -858,12 +858,12 @@ h1 {
   top: -300px; /* Ajuste de la posición superior */
   left: 50%;
   transform: translateX(-50%);
-  color: #c54384;
+  color: #6b0f0fa6;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
 
 #textoAmor::after {
   content: ' ♥'; /* Agregamos el corazón después del texto */
-  color: red; /* Cambiamos el color del corazón, puedes ajustarlo según tu preferencia */
+  color: rgb(128, 4, 4); /* Cambiamos el color del corazón, puedes ajustarlo según tu preferencia */
 }
