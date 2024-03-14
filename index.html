@@ -19,10 +19,19 @@
 
 </head>
 <body>
-    <audio autoplay loop>
-        <source src="audio.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio HTML5.
-      </audio>
+     <audio id="myAudio" preload="metadata" loop>
+              <source src="audio.mp3" type="audio/mpeg">
+              Tu navegador no soporta audio HTML5.
+          </audio>
+          <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              setTimeout(function() {
+                  var audio = document.getElementById("myAudio");
+                  audio.play();
+              }, 5000); // Espera 5 segundos antes de reproducir
+          });
+          </script>
+
       
       <div id="anniversary-text">FELIZ ANIVERSARIO</div>
 
