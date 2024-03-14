@@ -26,7 +26,25 @@
     align-items: center;
   }
 
-
+  .btn-navigate {
+    position: absolute;
+  top: 75%;
+  left: 47,5%;
+    background-color: #8B0000; /* Rojo oscuro */
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    animation: glow 1s ease-in-out infinite alternate, fadeIn 2s ease-out 12s forwards;
+    opacity: 0; /* Inicia completamente invisible */
+  }
+  .btn-navigate:hover {
+    background-color: #A52A2A; /* Un rojo un poco más claro para el hover */
+  }
   #anniversary-text {
     position: absolute;
     top: 45%;
